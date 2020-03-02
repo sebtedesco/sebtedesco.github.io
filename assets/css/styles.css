@@ -22,7 +22,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 a {
-  color: #3AAA64;
+  color: goldenrod;
   -webkit-transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
   -ms-transition: all 0.4s ease-in-out;
@@ -130,6 +130,8 @@ a.dotted-link:hover {
 
 .header .profile-image {
   margin-right: 30px;
+  border: 2px solid #434343;
+  border-radius: 50%;
 }
 
 .header .profile-content .name {
@@ -187,6 +189,8 @@ a.dotted-link:hover {
 .section .section-inner {
   background: #fff;
   padding: 30px;
+  border-radius: 8px;
+  box-shadow:  1px 4px 11px #a5c4d9;
 }
 
 .section .heading {
@@ -619,27 +623,6 @@ a.dotted-link:hover {
   color: #545e69;
 }
 
-/* ======= Footer ======= */
-.footer {
-  background: #32383e;
-  color: #fff;
-  padding: 10px 0;
-}
-
-.footer .copyright {
-  line-height: 1.6;
-  color: #a1aab4;
-  font-size: 14px;
-}
-
-.footer a {
-  color: #fff;
-}
-
-.footer .fa-heart {
-  color: #fb866a;
-}
-
 @media (max-width: 767.98px) {
   .header {
     text-align: center;
@@ -647,8 +630,6 @@ a.dotted-link:hover {
   .header .profile-image {
     float: none !important;
     margin: 0 auto;
-    border: 2px solid #6F715A;
-    border-radius: 8px;
   }
   .header .profile-content {
     float: none !important;
@@ -660,12 +641,5 @@ a.dotted-link:hover {
   }
   .project-image {
     margin-bottom: 15px;
-  }
-}
-
-@media (min-width: 1400px) {
-  .container {
-    width: 1360px;
-    max-width: inherit;
   }
 }
