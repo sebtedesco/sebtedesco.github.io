@@ -647,6 +647,8 @@ a.dotted-link:hover {
   .header .profile-image {
     float: none !important;
     margin: 0 auto;
+    border: 2px solid #6F715A;
+    border-radius: 8px;
   }
   .header .profile-content {
     float: none !important;
