@@ -130,9 +130,9 @@ a.dotted-link:hover {
 
 .header .profile-image {
   margin-right: 30px;
-  /* border: 2px solid #c9baba; */
-  /* border-radius: 50%; */
 }
+/* border: 2px solid #c9baba; */
+/* border-radius: 50%; */
 
 .header .profile-content .name {
   color: #49515a;
