@@ -32,7 +32,7 @@ a {
 a:hover {
   text-decoration: underline;
   color: #5f6b77;
-  color: #2d844e;
+  color: goldenrod;
 }
 
 a:focus {
@@ -130,7 +130,7 @@ a.dotted-link:hover {
 
 .header .profile-image {
   margin-right: 30px;
-  border: 2px solid #434343;
+  /* border: 2px solid #c9baba; */
   border-radius: 50%;
 }
 
